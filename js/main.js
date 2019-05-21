@@ -8,8 +8,8 @@
     // and using a CSS selector to find the element we want to use.
 
     //let stores the reference to element as a variable(in memory)
-    let svgGraphic = document.querySelector("#badgeSVG");
-        mainHeadline = document.querySelector(".main-headline");
+    let svgGraphic = document.querySelector("#badgeSVG"),
+        mainHeadline = document.querySelector(".main-headline"),
         topic = document.querySelector(".topic");
 
 
