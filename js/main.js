@@ -9,6 +9,9 @@
 
     //let stores the reference to element as a variable(in memory)
     let svgGraphic = document.querySelector("#badgeSVG");
+        mainHeadline = document.querySelector(".main-headline");
+        topic = document.querySelector(".topic");
+
 
     // functions are reusable pieces of code
     // that can run any timetime
@@ -19,5 +22,8 @@
     }
 
     svgGraphic.addEventListener("click", logMyId);
+
+    mainHeadline.textContent = "Now you're something else!";
+    topic.textContent = "Javascript Lesson";
 
 })();
