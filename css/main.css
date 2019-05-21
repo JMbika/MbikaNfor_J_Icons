@@ -31,3 +31,11 @@ body{font-size: 16px;}
 .st0:hover {opacity:1;fill:#FFFFFF;}
 
 .st1:hover {opacity: 1; fill:#ffd1dc}
+
+/*THESE ARE DYNAMIC STYLES*/
+.selected {
+    color: blue !important;
+    text-transform: uppercase;
+    font-style: italic;
+
+}
